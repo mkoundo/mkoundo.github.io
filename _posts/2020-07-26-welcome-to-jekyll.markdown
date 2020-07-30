@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My Python Journey"
 date:   2020-07-26 22:01:30 +0100
 categories: jekyll update
 ---
