@@ -1,29 +1,21 @@
 ---
 layout: post
-title:  "My Python Journey"
-date:   2020-07-26 22:01:30 +0100
-categories: jekyll update
+title:  "Learning Python"
+date:   2020-07-01 22:01:30 +0100
+category: python
+tags: python, python2
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+As a beginner's introduction to python, I completed [Google's Python Class](https://developers.google.com/edu/python/), which includes free lecture notes, exercises (inc. solutions) and youtube lectures by Nick Parlante. Although this course is ten years old and is based on legacy python2, I still highly recommend it. Most of it is still applicable to python3. The topics covered include:
 
-Jekyll requires blog post files to be named according to the following format:
+- Python setup
+- Python intro
+- Strings
+- Lists
+- Sorting
+- Dicts & Files
+- Regular Expressions
+- Utilities (Files, external processes and url parsing)
 
-`YEAR-MONTH-DAY-title.MARKUP`
+I'm on windows 10 and since I already had MX Linux installed in virtualbox, I completed the course in there. MX includes python2 and 3 straight out of the box so it was quick to get going. All coding was done in Geany.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The google python class repository is [here](https://github.com/mkoundo/google_python_class)  
