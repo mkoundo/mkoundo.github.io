@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Learning Python"
 date:   2020-07-01 22:01:30 +0100
 category: python
