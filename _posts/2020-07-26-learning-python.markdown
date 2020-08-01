@@ -2,8 +2,6 @@
 title: "Learning Python"
 date: 2020-07-01
 tags: [python, python2]
-header:
-  image: "/images/perceptron/percept.jpg"
 excerpt: "Python"
 mathjax: "true"
 ---
