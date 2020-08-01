@@ -1,8 +1,11 @@
 ---
-title:  "Learning Python"
-date:   2020-07-01 22:01:30 +0100
-category: python
-tags: python, python2
+title: "Learning Python"
+date: 2020-07-01
+tags: [python, python2]
+header:
+  image: "/images/perceptron/percept.jpg"
+excerpt: "Python"
+mathjax: "true"
 ---
 As a beginner's introduction to python, I completed [Google's Python Class](https://developers.google.com/edu/python/), which includes free lecture notes, exercises (inc. solutions) and youtube lectures by Nick Parlante. Although this course is ten years old and is based on legacy python2, I still highly recommend it. Most of it is still applicable to python3. The topics covered include:
 
