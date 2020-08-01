@@ -5,6 +5,6 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+Hello, I'm Michael and welcome to my blog. This is where I'll be documenting my journey into Python, data science and machine learning. 
 
-Etc, etc, etc
+I have an aeronautical engineering degree and PhD from [Imperial College London](https://www.imperial.ac.uk/).
