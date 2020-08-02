@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Pandas for Data Science"
 date:   2020-08-02 15:00:00 +0100
 tags: [python, jupyter, pandas, numpy]
