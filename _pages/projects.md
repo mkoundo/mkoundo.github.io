@@ -4,9 +4,9 @@ title: "Projects"
 header:
   image: "/images/fort point.png"
 ---
-# Project A: Some project
+# [Project A: Some project]: {{ "/project_a/"}}
 
-Project goes here...
+A brief description of project A
 
 # Project B: Some other project
 Project goes here...
