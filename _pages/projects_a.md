@@ -1,5 +1,5 @@
 ---
-permalink: /projects_a/
+permalink: /project_a/
 title: "Project A"
 header:
   image: "/images/fort point.png"
