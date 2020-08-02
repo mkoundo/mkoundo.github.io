@@ -10,4 +10,4 @@ mathjax: "true"
 The following pandas for data science example is from Giles' [tutorial](https://youtu.be/MYU9W34dZh0)
 
 
-{% include '_notebooks/pandas_giles.html' %}
+{{'_notebooks/pandas_giles.html'}}
