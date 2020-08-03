@@ -5,7 +5,6 @@ categories: [Code, Python, Jupyter]
 excerpt: Post demonstrating Jupyter Notebooks
 ---
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 
