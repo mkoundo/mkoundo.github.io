@@ -1,5 +1,5 @@
 ---
-layout: jupyter
+layout: post
 title:  Inserting Jupyter Notebooks into Blog Posts
 categories: [Code, Python, Jupyter]
 excerpt: Post demonstrating Jupyter Notebooks
