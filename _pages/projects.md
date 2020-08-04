@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Data Science, Machine learing & Deep Learning Projects
+title: Projects
 permalink: /projects/
 ---
 
-## Project A
+## Project A: Data Science 
 This project verifies...
 
-## Project B
+## Project B: Machine Learning
 Another project....
 
-## Project C
+## Project C: Deep Learning
 And another project...
