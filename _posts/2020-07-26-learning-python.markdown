@@ -15,6 +15,5 @@ As a beginner's introduction to python, I completed [Google's Python Class](http
 - Regular Expressions
 - Utilities (Files, external processes and url parsing)
 
-I'm on windows 10 and since I already had MX Linux installed in virtualbox, I completed the course in there. MX includes python2 and 3 straight out of the box so it was quick to get going. All coding was done in Geany.
 
 My google python class repository is [here](https://github.com/mkoundo/google_python_class)  
