@@ -39,9 +39,9 @@ unsorted_list = [3, 5, 2, 1 4]
 print(qsort(unsorted_list))
 ``` 
 
-Using the `random` module, the above code is modified to select a pivot at random. From Ref [1] the average runtime of quicksort with a randomly selected pivot is $ O(n\log n) $ vs $ O(n) $ for a pivot set to the first array item.
+Using the `random` module, the above code is modified to select a pivot at random. From Ref [1] the average runtime of quicksort with a randomly selected pivot is O(n log n) vs O(n) for a pivot set to the first array item.
 
-In order to compare the runtimes resulting from the two pivot choices, the code is modified to:
+In order to compare the runtimes resulting from the two pivot choices, the code is modified to run both and compute the runtimes for each, for a randomly generated list of 1100 integers.:
 
 ```python
 import random
@@ -57,9 +57,9 @@ def qsort(items, pivot_choice):
 
     # Partition the list
     if pivot_choice:
-        pivot = random.choice(items)            # choose random pivot for average runtime of O(n log n)
+        pivot = random.choice(items)        # choose random pivot
     else:
-        pivot = items[0]                        # Choose first item in list as pivot
+        pivot = items[0]            # Choose first item in list as pivot
 
     items.remove(pivot)
     left_array = [item for item in items if item <= pivot]
@@ -75,7 +75,8 @@ def qsort(items, pivot_choice):
 
 
 # Create unsorted list from random numbers
-unsorted_set = {int(10000*random.random()) for _ in range(1100)}    # create a set to avoid duplicate entries
+# create a set to avoid duplicate entries
+unsorted_set = {int(10000*random.random()) for _ in range(1100)}    
 unsorted_list = list(unsorted_set)
 
 # removing the pivot in the qsort function also affects
