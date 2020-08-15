@@ -79,18 +79,13 @@ def qsort(items, pivot_choice):
 unsorted_set = {int(10000*random.random()) for _ in range(1100)}    
 unsorted_list = list(unsorted_set)
 
-# removing the pivot in the qsort function also affects
-# the unsorted list because unsorted_list and items point to the same
-# list in memory. Therefore use a copy:
-unsorted_list_copy = unsorted_list.copy()
-
 start_time = time.time()
 print(qsort(unsorted_list, False))
 end_time = time.time()
 print(f'First item pivot done in {end_time-start_time}s')
 
 start_time = time.time()
-print(qsort(unsorted_list_copy, True))
+print(qsort(unsorted_list, True))
 end_time = time.time()
 print(f'Random pivot done in {end_time-start_time}s')
 ``` 
