@@ -39,7 +39,7 @@ unsorted_list = [3, 5, 2, 1 4]
 print(qsort(unsorted_list))
 ``` 
 
-Using the `random` module, the above code is modified to select a pivot at random. From Ref [1] the average runtime of quicksort with a randomly selected pivot is O(n log n) vs O(n) for a pivot set to the first array item.
+Using the `random` module, the above code is modified to select a pivot at random. From Ref [1], the average runtime of quicksort with a randomly selected pivot is O(n log n) vs O(n) for a pivot set to the first array item.
 
 In order to compare the runtimes resulting from the two pivot choices, the code is modified to run both and compute the runtimes for each, for a randomly generated list of 1100 integers.:
 
