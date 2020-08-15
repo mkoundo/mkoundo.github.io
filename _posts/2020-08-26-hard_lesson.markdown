@@ -1,4 +1,4 @@
-15---
+---
 layout: post
 title:  Learning Python the Hard Way
 categories: [Code, Python]
