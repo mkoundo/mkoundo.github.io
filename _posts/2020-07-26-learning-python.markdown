@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Learning Python, Part A
+title:  Learning Python
 categories: [Code, Python]
 excerpt: Beginner's introduction to Python
 ---
