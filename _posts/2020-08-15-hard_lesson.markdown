@@ -62,7 +62,7 @@ end_time = time.time()
 print(f'Random pivot done in {end_time-start_time}s')
 ``` 
 
-The problem is this; calling the `qsort` function once produces the expected results. However, calling the function twice, as per the above code snippet, produces an unexpected result: the second `qsort` function returns a sorted list minus one item. Here is a simplified example reproducing this issue:
+The problem is that calling the `qsort` function once produces the expected results, but calling the function twice, as shown above, produces an unexpected result: the second `qsort` function returns a sorted list minus one item. Here is a simplified example that reproduces this:
 
 ```python
 def remove_elm(items, item):
@@ -77,6 +77,7 @@ print(my_list)
 ``` 
 
 the above code outputs:
+
 ```
 [1, 3, 5]
 None
