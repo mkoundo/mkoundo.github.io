@@ -4,7 +4,7 @@ title:  Learning Python
 categories: [Code, Python]
 excerpt: Beginner's introduction to Python
 ---
-## Google's Python Class - A Crash Course in Python 2
+### Google's Python Class - A Crash Course in Python 2
 As a beginner's introduction to python, I completed [Google's Python Class](https://developers.google.com/edu/python/), which includes free lecture notes, exercises (inc. solutions) and youtube lectures by Nick Parlante. Although this course is ten years old and is based on legacy python2, I still highly recommend it. Most of it is still applicable to python3. The topics covered include:
 
 - Python setup
@@ -19,7 +19,7 @@ As a beginner's introduction to python, I completed [Google's Python Class](http
 
 My google python class github repository is [here](https://github.com/mkoundo/google_python_class)  
 
-## Automating the Boring Stuff with Python - An introductory Python 3 Course
+### Automating the Boring Stuff with Python - An introductory Python 3 Course
 ![](/images/cover_automating.png)
 [Automating the boring stuff](http://automatetheboringstuff.com/) by Al Sweigart. 
 
