@@ -76,14 +76,14 @@ print(remove_elm(my_list, 3))
 print(my_list)
 ``` 
 
-the above code outputs:
+The above code outputs:
 
 ```
 [1, 3, 5]
 None
 [1, 5]
 ```
-Stepping through the code; first a list with three items is created and printed. This list and a parameter of 3 are passed to the `remove_elm` function as arguments `items` and `item`, respectively. The function removes element `item` from list `items` and returns nothing. Finally, printing out `my_list` shows the list has had an element removed. So why has `my_list` had an element removed? To answer this question, it helps to use the code visualisation [tool](http://www.pythontutor.com/visualize.html#mode=edit) which provides the following:
+Stepping through the code; first a list with three items is created and printed. This list and a parameter of 3 are passed to the `remove_elm` function as arguments `items` and `item`, respectively. The function removes element `item` from list `items` and returns nothing. Finally, printing out `my_list` shows the list has had an element removed. So why has `my_list` had an element removed if function `remove_elm` returned nothing? To answer this question, it helps to use the code visualisation [tool](http://www.pythontutor.com/visualize.html#mode=edit) which provides the following:
 
 ![](/images/qsort_eg.png)
 
