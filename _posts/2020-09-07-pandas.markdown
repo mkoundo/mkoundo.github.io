@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Pandas, Numpy & Matplotlib
+categories: [Python, Jupyter Notebook, Pandas]
+excerpt: Pandas Tutorials and Exercises
+---
+### Pandas, Numpy and Matplotlib
+
+An introduction to Pandas, Numpy and Matplotlib is available on Corey Schafer's [channel](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) and provides a great overview of the subject, using jupyter notebooks.
+
+Another great resource I belatedly came across is the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas. 
+
+Exercises for this subject are available from Guilherme Samora's [github page](https://github.com/guipsamora/pandas_exercises) and includes solutions. The exercises include:
+
+1. Getting
+2. Filtering & Sorting
+3. Grouping
+4. Apply
+5. Merge
+6. Stats
+7. Graphs (matplotlib & seaborn)
+8. Series & Dataframes
+9. Time series
+10. Deleting
+
+My repository is [here](https://github.com/mkoundo/pandas_numpy_matplotlib).
+  
